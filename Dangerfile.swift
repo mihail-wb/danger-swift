@@ -1,7 +1,7 @@
 import Danger
 import Foundation
 
-let danger = Danger()
+let danger = DangerCreate()
 
 // fileImport: DangerfileExtensions/ChangelogCheck.swift
 checkChangelog()

@@ -34,7 +34,7 @@ public enum SwiftLint {
         }
     }
 
-    static let danger = Danger()
+    static let danger = DangerCreate()
     static let shellExecutor = ShellExecutor()
 
     /// When the swiftlintPath is not specified,

@@ -54,7 +54,7 @@ func editDanger(version dangerSwiftVersion: String, logger: Logger) throws {
 }
 
 private func createDangerfile(_ dangerfilePath: String) {
-    let template = "import Danger \nlet danger = Danger()"
+    let template = "import Danger \nlet danger = DangerCreate()"
     let data = Data(template.utf8)
 
     FileManager.default.createFile(atPath: dangerfilePath, contents: data, attributes: [:])
